@@ -49,8 +49,6 @@ for row_idx, row in enumerate(worksheet.iter_rows()):
             row_label = tk.Label(frame, text=str(row_idx)) # create a label for the row number
             row_label.grid(row=row_idx, column=0, padx=5, pady=5) # add the label to the same row as the button, in the first column
 
- #           button = tk.Button(frame, text=label, command=lambda l=label: copy_text(l))
- #           button.grid(row=row_idx, column=col_idx, padx=5, pady=5)
 
 
 
